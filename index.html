@@ -4,62 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Ramona Ekanayake</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ramona Ekanayake</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Ramona Ekanayake</h1>
-            <h2>Full Stack Developer</h2>
-        </div>
-    </section>
-
-    <section id="about">
+    <section id="hero" class="bg-primary text-white py-5">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Self-taught Full Stack Developer with a passion for crafting exceptional web applications. I am driven by curiosity, self-motivation, and a love for problem-solving. Through countless hours of independent learning, I have acquired a comprehensive skill set encompassing front-end and back-end development. I thrive in fast-paced environments, constantly seeking opportunities to grow and stay up to date with emerging technologies. My unique perspective, combined with a strong foundation in self-teaching, allows me to bring a fresh and well-rounded approach to development work. I am excited to collaborate with a team of like-minded professionals, delivering innovative solutions that exceed expectations.</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
-                <p>A brief description of your project, including the technologies used and your role in its development. Showcase your problem-solving skills, creativity, and the positive impact of the project.</p>
+            <div class="text-center">
+                <h1>Ramona Ekanayake</h1>
+                <h2 class="fw-light">Full Stack Developer</h2>
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail">
-                <p>A brief description of your project, including the technologies used and your role in its development. Showcase your problem-solving skills, creativity, and the positive impact of the project.</p>
+        </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="display-4">About Me</h2>
+                <p class="lead">Self-taught Full Stack Developer with a passion for crafting exceptional web applications. I am driven by curiosity, self-motivation, and a love for problem-solving. Through countless hours of independent learning, I have acquired a comprehensive skill set encompassing front-end and back-end development. </p>
+                <p> I thrive in fast-paced environments, constantly seeking opportunities to grow and stay up to date with emerging technologies. My unique perspective, combined with a strong foundation in self-teaching, allows me to bring a fresh and well-rounded approach to development work. I am excited to collaborate with a team of like-minded professionals, delivering innovative solutions that exceed expectations.</p> 
+        </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="display-4">Projects</h2>
             </div>
-            <!-- Add more project sections as needed -->
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Get in touch with me</h2>
-            <p>ramona.ekanayake@icloud.com</p>
-            <p>+46-767-034430</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Ramona Ekanayake. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="project1-thumbnail.jpg" class="card-img-top" alt="Project 1 Thumbnail">
+                        <div class="card-body">
+                            <h3 class="card-title">Fika med Farmor</h3>
+                            <p class="card-text">  Showcasing Authentic Sri Lankan Cuisine </p>
+                                
+                                <p> Fika med Farmor is a captivating frontend website project dedicated to showcasing the authentic flavors of Sri Lankan cuisine. Through visually appealing design and engaging content, the website celebrates Farmor's culinary talent and her passion for creating delicious dishes. Stay tuned for upcoming features, including online ordering and delivery, to enjoy Farmor's delightful creations from the comfort of your own home. Join us on this flavorful journey as we bring the tastes of Sri Lanka to your table.</p>
+                                </div>
+                            
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        
